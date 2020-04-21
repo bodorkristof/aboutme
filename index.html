@@ -1,15 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang=hu>
+  <head class='fent'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="main.css">
     <title>Bemutatkozóoldal</title>
     <link rel="shortcut icon" href="assets/me-16x16.png" type="image/png">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <h4>Bodor Kristóf</h4>
-      <p>Illessz be egy rövid bemutatkozást</p>
-      <img src="yourpicture.png" alt="keprolad">
+    <div class="profile-card">
+      <div class="head">
+        <div class="profile-image">
+          <img src="assets/me.jpg" alt="Kristóf Bodor">
+        </div>
+        <div class="name-headline">
+          <h1><a target="_blank" href="assets/oneletrajz.docx">Bodor Kristóf</a></h1>
+          <span>from</span>
+          <p><i class="fa fa-map-marker"></i> Budapest, HU</p>
+        </div>
+      </div>
+      <div class="content">
+        <p class="about">
+          Szervusz kedves látogató!
+          <br>
+          Köszönöm, hogy felkerested az egyik első weboldalamat! Nagyon izgalmas a nulláról megtanulni a webfejesztést. Tudom, hogy a kurzus befejezéséhez sok kemény munka és kitartás kell, de nagyon várom az összes új készséget, amelyeket megszerezhetek!
+          <br>
+          Rólam:
+          <br>
+          - Egy egyszerű erdélyi fiú vagyok. Azért költöztem Budapestre, mert itt több lehetőség van a fejlődésre és a tapasztalatszerzésre. Jelenleg Budapesten élek a XIII. kerületben.
+        </p>
+        <section id="mydiv" class="links">
+          <h2>Kapcsolat:</h2>
+          <ul>
+            <li><a target="blank" href="https://www.facebook.com/bodorkristof/" title="Facebook" class="social-icon"><i class="fa fa-2x fa-facebook-square shake" aria-hidden="true"></i></a></li>
+            <li><a target="blank" href="https://www.instagram.com/bodorkristof/?hl=hu" title="Instagram" class="social-icon"><i class="fa fa-2x fa-instagram shake" aria-hidden="true"></i></a></li>
+            <li><a target="blank" href="mailto:bodor.kristof2010@gmail.com" title="G-mail" class="social-icon"><i class="fa fa-2x fa-envelope shake" aria-hidden="true"></i></a></li>
+          </ul>
+          <ul>
+            <li> <i id="phone-number" class="fa fa-2x fa-mobile" aria-hidden="true">06-20-454-4877</i></li>
+            <br>
+          </ul>
+        </section>
+      </div>
     </div>
   </body>
+  <footer class="footer" >
+    <div class="wrapper">
+      <small>©2020 <strong>Bodor Kristóf</strong>, Minden jog fenntartva</small>
+      <nav class="footer-nav">
+        <a href="#">Ugrás az oldal tetejére</a>
+        <a target="_blank" href="assets/oneletrajz.docx">Önéletrajz</a>
+      </nav>
+    </div>
+    <span></span>
+  </footer>
 </html>
